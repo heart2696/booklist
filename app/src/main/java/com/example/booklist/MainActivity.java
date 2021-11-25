@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<String> data = new ArrayList<>();
         for (int i = 0; i < 12; i++) {
-            data.add(String.format("%d번 입니다"));
+            data.add("안녕하세요" + (i + 1));
         }
 
         StudyAdapter adapter = new StudyAdapter(data);
