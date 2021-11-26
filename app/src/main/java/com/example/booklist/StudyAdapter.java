@@ -34,7 +34,7 @@ public class StudyAdapter extends RecyclerView.Adapter<StudyAdapter.ViewHolder>{
 
     @Override
     public int getItemCount() {
-        return 0;
+        return 50;
     }
 
     protected static class ViewHolder extends RecyclerView.ViewHolder{

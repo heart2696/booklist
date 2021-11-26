@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/inyou/AndroidStudioProjects/BookList/app/src/main/res/layout/activity_book.xml" value="0.23489583333333333" />
         <entry key="..\:/Users/inyou/AndroidStudioProjects/BookList/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/inyou/AndroidStudioProjects/BookList/app/src/main/res/layout/item_book.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/inyou/AndroidStudioProjects/BookList/app/src/main/res/layout/item_study.xml" value="0.24583333333333332" />
         <entry key="..\:/Users/inyou/AndroidStudioProjects/BookList/app/src/main/res/layout/strings.xml" value="0.24583333333333332" />
       </map>
