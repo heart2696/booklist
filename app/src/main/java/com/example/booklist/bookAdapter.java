@@ -9,9 +9,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.ArrayList;
 
-class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder>{
+public class bookAdapter extends RecyclerView.Adapter<bookAdapter.ViewHolder>{
     ArrayList<BookItemLists> bookLists = new ArrayList<BookItemLists>();
 
     @NonNull
@@ -70,6 +72,7 @@ class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder>{
             String imgURL = book.getImage();
 
             Glide.with(itemView).load(imgURL).into(image);
+
 
         }
     }

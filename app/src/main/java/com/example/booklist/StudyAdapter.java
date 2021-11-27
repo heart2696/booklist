@@ -33,9 +33,7 @@ public class StudyAdapter extends RecyclerView.Adapter<StudyAdapter.ViewHolder>{
     }
 
     @Override
-    public int getItemCount() {
-        return 50;
-    }
+    public int getItemCount() { return data.size(); }
 
     protected static class ViewHolder extends RecyclerView.ViewHolder{
         private final ItemStudyBinding binding;
