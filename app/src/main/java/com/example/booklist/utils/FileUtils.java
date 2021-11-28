@@ -16,7 +16,7 @@ public class FileUtils {
     public static String readFile(Context context, String filename) throws FileNotFoundException {
         return FileUtils.readStream(context.openFileInput(filename));
     }
-    public static String readStream(FileInputStream fis){
+    public static String readStream(InputStream fis){
         InputStreamReader inputStreamReader =
                 new InputStreamReader(fis, StandardCharsets.UTF_8);
 
